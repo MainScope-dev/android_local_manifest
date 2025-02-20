@@ -9,8 +9,8 @@
 2. Install additional packages:
 
 ```
-sudo apt-get install bc coreutils dosfstools e2fsprogs fdisk kpartx mtools ninja-build pkg-config python3-pip rsync
-sudo pip3 install meson mako jinja2 ply pyyaml dataclasses
+sudo apt-get install coreutils dosfstools e2fsprogs fdisk kpartx mtools ninja-build pkg-config python3-pip rsync
+sudo pip3 install dataclasses jinja2 mako meson ply pyyaml
 ```
 
 3. Initialize repo:
