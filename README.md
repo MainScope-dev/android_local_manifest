@@ -16,15 +16,15 @@ sudo apt-get install dosfstools e2fsprogs fdisk kpartx mtools rsync
 
 ```
 repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r32
-curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-15.0/manifest_brcm_rpi.xml --create-dirs
+curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/MainScope-dev/android_local_manifest/android-15_r32_adamastor/manifest_brcm_rpi.xml --create-dirs
 ```
 
 Or optionally, you can reduce download size by creating a shallow clone and removing unneeded projects:
 
 ```
 repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r32 --depth=1
-curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-15.0/manifest_brcm_rpi.xml --create-dirs
-curl -o .repo/local_manifests/remove_projects.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-15.0/remove_projects.xml
+curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/MainScope-dev/android_local_manifest/android-15_r32_adamastor/manifest_brcm_rpi.xml --create-dirs
+curl -o .repo/local_manifests/remove_projects.xml -L https://raw.githubusercontent.com/MainScope-dev/android_local_manifest/android-15_r32_adamastor/remove_projects.xml
 ```
 
 4. Sync source code:
