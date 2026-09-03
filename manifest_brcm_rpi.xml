@@ -72,7 +72,6 @@
   <remove-project name="platform/packages/services/Car" />
   <project path="packages/services/Car" name="MainScope-dev/android_packages_services_Car" remote="github" revision="adamastor/car-customizations" />
 
-  <remove-project name="platform/packages/apps/Car" />
-  <project path="packages/apps/Car" name="MainScope-dev/adamastor-prebuilt-apps" remote="github" revision="main" />
+  <project path="packages/apps/Car/prebuilts" name="MainScope-dev/adamastor-prebuilt-apps" remote="github" revision="main" />
 
 </manifest>
